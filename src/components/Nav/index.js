@@ -1,11 +1,7 @@
-import React, { useEffect } from 'react'
-import { capitalizeFirstLetter } from '../../utils/helpers'
+import React from 'react'
 
 function Nav(props) {
-  const { categories = [], setCurrentCategory, currentCategory } = props
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name)
-  }, [currentCategory])
+  const { setContactSelected, setPortfolioSelected, setResumeSelected } = props
 
   // conditional rendering
   return (
@@ -20,22 +16,56 @@ function Nav(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          {categories.map((category) => (
-            <li
-              className={`mx-2 ${
-                currentCategory.name === category.name && 'navActive'
-              }`}
-              key={category.name}
+          <li className="mx-2">
+            <a
+              className="nav-item"
+              data-testid="about"
+              href="#about"
+              onClick={() => {
+                setContactSelected(false)
+                setPortfolioSelected(false)
+                setResumeSelected(false)
+              }}
             >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category)
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
+              About me
+            </a>
+            <a
+              href="#portfolio"
+              className="nav-item"
+              data-testid="portfolio"
+              onClick={() => {
+                setContactSelected(false)
+                setPortfolioSelected(true)
+                setResumeSelected(false)
+              }}
+            >
+              Portfolio
+            </a>
+            <a
+              href="#contactMe"
+              className="nav-item"
+              data-testid="contactMe"
+              onClick={() => {
+                setContactSelected(true)
+                setPortfolioSelected(false)
+                setResumeSelected(false)
+              }}
+            >
+              Contact Me
+            </a>
+            <a
+              href="#resume"
+              className="nav-item"
+              data-testid="resume"
+              onClick={() => {
+                setContactSelected(false)
+                setPortfolioSelected(false)
+                setResumeSelected(true)
+              }}
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

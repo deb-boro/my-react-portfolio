@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Portfolio() {
+function Resume() {
   return (
     <div className="my-2">
-      <p>Portfolio Page</p>
+      <p>Resume</p>
     </div>
   )
 }
 
-export default Portfolio
+export default Resume

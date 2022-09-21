@@ -312,3 +312,7 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.nav-item {
+  padding: 20px;
+}
