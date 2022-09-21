@@ -1,6 +1,19 @@
 import React from 'react'
 
-function Portfolio() {
+function Project() {
+  const [projects] = [
+    {
+      name: 'commercial',
+      description:
+        'Photos of grocery stores, food trucks, and other commercial projects',
+    },
+    { name: 'portraits', description: 'Portraits of people in my life' },
+    { name: 'food', description: 'Delicious delicacies' },
+    {
+      name: 'landscape',
+      description: 'Fields, farmhouses, waterfalls, and the beauty of nature',
+    },
+  ]
   return (
     <div className="my-2">
       <p>Portfolio Page</p>
@@ -87,4 +100,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default Project
