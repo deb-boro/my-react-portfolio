@@ -1,24 +1,19 @@
 {
-  "files": {
-    "main.css": "/my-react-portfolio/static/css/main.fde649f7.css",
-    "main.js": "/my-react-portfolio/static/js/main.d481ad7f.js",
-    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
-    "static/media/hero-bg.jpeg": "/my-react-portfolio/static/media/hero-bg.000e1b5ff4f0b912c97f.jpeg",
-    "static/media/BUZZ_ROCKET.png": "/my-react-portfolio/static/media/BUZZ_ROCKET.e5f1b889434892b18deb.png",
-    "static/media/WeatherDashboard.png": "/my-react-portfolio/static/media/WeatherDashboard.d26a75b4c25762901261.png",
-    "static/media/cat-game-project.png": "/my-react-portfolio/static/media/cat-game-project.6ba38084916f2e4e9550.png",
-    "static/media/NOTETAKER.png": "/my-react-portfolio/static/media/NOTETAKER.0077efed1008a4e01c07.png",
-    "static/media/DayScheduler.png": "/my-react-portfolio/static/media/DayScheduler.1307e2af5be0cf2bcec6.png",
-    "static/media/LinkedIn_logo_initials.png": "/my-react-portfolio/static/media/LinkedIn_logo_initials.e9db41041d38d6fb97b4.png",
-    "static/media/147142.png": "/my-react-portfolio/static/media/147142.082c8bb9fef786605356.png",
-    "static/media/github-512.webp": "/my-react-portfolio/static/media/github-512.01eff38eed74df9221c7.webp",
-    "index.html": "/my-react-portfolio/index.html",
-    "main.fde649f7.css.map": "/my-react-portfolio/static/css/main.fde649f7.css.map",
-    "main.d481ad7f.js.map": "/my-react-portfolio/static/js/main.d481ad7f.js.map",
-    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.fde649f7.css",
-    "static/js/main.d481ad7f.js"
-  ]
+  "main.css": "/my-react-portfolio/static/css/main.c952f337.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.023b15ce.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.023b15ce.chunk.js.map",
+  "static/js/1.03ae7ea8.chunk.js": "/my-react-portfolio/static/js/1.03ae7ea8.chunk.js",
+  "static/js/1.03ae7ea8.chunk.js.map": "/my-react-portfolio/static/js/1.03ae7ea8.chunk.js.map",
+  "static/js/2.8ca22bb6.chunk.js": "/my-react-portfolio/static/js/2.8ca22bb6.chunk.js",
+  "static/js/2.8ca22bb6.chunk.js.map": "/my-react-portfolio/static/js/2.8ca22bb6.chunk.js.map",
+  "runtime~main.js": "/my-react-portfolio/static/js/runtime~main.56eb48f6.js",
+  "runtime~main.js.map": "/my-react-portfolio/static/js/runtime~main.56eb48f6.js.map",
+  "static/media/147142.png": "/my-react-portfolio/static/media/147142.5db32383.png",
+  "static/media/github-512.webp": "/my-react-portfolio/static/media/github-512.ce473bb4.webp",
+  "static/media/LinkedIn_logo_initials.png": "/my-react-portfolio/static/media/LinkedIn_logo_initials.f9ed8326.png",
+  "static/media/index.css": "/my-react-portfolio/static/media/hero-bg.3adfa0c7.jpeg",
+  "static/css/main.c952f337.chunk.css.map": "/my-react-portfolio/static/css/main.c952f337.chunk.css.map",
+  "index.html": "/my-react-portfolio/index.html",
+  "precache-manifest.1012a1db04622f874a8ec37e39159b7d.js": "/my-react-portfolio/precache-manifest.1012a1db04622f874a8ec37e39159b7d.js",
+  "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
