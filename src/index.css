@@ -363,28 +363,28 @@ img {
 }
 
 .first {
-  background-image: url(../src/assets/cover/cat-game-project.png);
+  background-image: url(../src/assets/cover/movie-central-retro.jpg);
   flex: 1 45%;
 }
 .second {
-  background-image: url(../src/assets/cover/BUZZ_ROCKET.png);
+  background-image: url(../src/assets/cover/cat-game-project.png);
   flex: 1 45%;
 }
 .third {
-  background-image: url(../src/assets/cover/hero-bg.jpeg);
+  background-image: url(../src/assets/cover/BUZZ_ROCKET.png);
   flex: 1 45%;
 }
 .forth {
-  background-image: url(../src/assets/cover/WeatherDashboard.png);
+  background-image: url(../src/assets/cover/hero-bg.jpeg);
   flex: 1 50%;
 }
 .fifth {
-  background-image: url(../src/assets/cover/DayScheduler.png);
+  background-image: url(../src/assets/cover/WeatherDashboard.png);
   flex: 1 45%;
 }
 
 .sixth {
-  background-image: url(../src/assets/cover/NOTETAKER.png);
+  background-image: url(../src/assets/cover/DayScheduler.png);
   flex: 1 45%;
 }
 

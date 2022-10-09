@@ -8,11 +8,23 @@ function Project() {
         <div class="portfolio-sections">
           <div class="projects">
             <a
-              href="https://github.com/deb-boro/cat-game"
+              href="https://github.com/RetroColossus/movie-central"
               class=" project first"
             >
               <div>
                 <p class="project-name">
+                  <br />
+                  <span>Node.js/Express/MongoDB/GraphQL/ReactJS</span>
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://github.com/deb-boro/cat-game"
+              class=" project second"
+            >
+              <div>
+                <p>
+                  CAT GAME
                   <br />
                   <span>
                     Node.js/Express/mysql2/Sequelize/Handlebars HTML/CSS
@@ -22,7 +34,7 @@ function Project() {
             </a>
             <a
               href="https://bradsw90.github.io/Buzzed-Rocket/"
-              class=" project second"
+              class=" project third"
             >
               <div>
                 <p>
@@ -34,7 +46,7 @@ function Project() {
             </a>
             <a
               href="https://deb-boro.github.io/run-buddy/"
-              class=" project third"
+              class=" project fourth"
             >
               <div>
                 <p>
@@ -46,7 +58,7 @@ function Project() {
             </a>
             <a
               href="https://deb-boro.github.io/my-weather-dashboard/"
-              class=" project fourth"
+              class=" project fifth"
             >
               <div>
                 <p>
@@ -58,25 +70,13 @@ function Project() {
             </a>
             <a
               href="https://deb-boro.github.io/day-scheduler/"
-              class=" project fifth"
+              class=" project sixth"
             >
               <div>
                 <p>
                   Workday Scheduler
                   <br />
                   <span>html/css/JavaScript</span>
-                </p>
-              </div>
-            </a>
-            <a
-              href="https://sleepy-peak-91139.herokuapp.com/"
-              class=" project sixth"
-            >
-              <div>
-                <p>
-                  Note Taker Application
-                  <br />
-                  <span>html/css/JavaScript/Express</span>
                 </p>
               </div>
             </a>
